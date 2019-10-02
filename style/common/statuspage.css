@@ -1,0 +1,33 @@
+html {
+    background-color: #F8F8F8;
+    background: url(../../img/common/errorbg.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+body, .title, .subtitle {
+    margin: 0; padding: 0;
+}
+
+div.title {
+    padding: 20px;
+    background: #EEE;
+    border-bottom: solid 1px #DDD;
+}
+
+div.title.red {
+    background: lightcoral;
+    border-color: coral;
+}
+
+div.title.blue {
+    background: powderblue;
+    border-color: skyblue;
+}
+
+h1.title {
+    font-weight: 350;
+}

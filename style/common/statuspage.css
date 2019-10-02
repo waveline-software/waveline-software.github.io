@@ -16,6 +16,7 @@ div.title {
     padding: 20px;
     background: #EEE;
     border-bottom: solid 1px #DDD;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
 }
 
 div.title.red {

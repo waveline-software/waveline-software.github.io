@@ -1,0 +1,46 @@
+/*  [ REQUIREMENTS ]
+ * - style/fonts/opensans-all.css
+ */
+
+body {
+    font-family: "Open Sans Regular";
+    margin: 0; padding: 0;
+}
+
+img.inline-avatar { height: 1rem; border-radius: 0.25em; margin-left: 2px; margin-bottom: -2px; }
+
+a, a:visited { color: royalblue; text-decoration: none; }
+a:hover { color: blue; }
+
+nav.topnav {
+    background-color: powderblue;
+    border-bottom: solid 1px skyblue;
+    padding: 10px; box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+nav.topnav > span.logo { padding: 0 7px; vertical-align: middle; }
+nav.topnav > span.logo > img { margin-bottom: -6px; }
+
+nav.topnav > span.link { padding: 10px 7px; vertical-align: middle; }
+nav.topnav > span.link > a, nav.topnav > span.link > a:visited { color: darkcyan; text-decoration: none; }
+nav.topnav > span.link > a, nav.topnav > span.link > a:hover { color: black; text-decoration: none; }
+nav.topnav > span.link.active > a, nav.topnav > span.link.active > a:visited { color: black; text-decoration: none; }
+
+div.banner {
+    font-family: "Open Sans Light"; font-size: 25px;
+    padding: 15px 20px; border-bottom: solid 1px blanchedalmond;
+    background-color: lemonchiffon; color: darkslategray;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+div.content { padding: 25px 30px 0 30px; }
+div.content.last { padding-bottom: 25px; }
+
+div.content > h1.head, h2.subhead { margin: 0; font-weight: normal; }
+div.content > h1.head { font-family: "Open Sans Semibold"; font-size: 30px; margin-bottom: 10px; }
+div.content > h2.subhead { font-family: "Open Sans Regular"; margin-top: -10px; font-size: 20px; margin-bottom: 20px; }
+
+div.content > p { margin: 0; margin-top: 12.5px; line-height: 1.6; }
+div.content > p.lead { font-family: "Open Sans Light"; font-size: 20px; margin-top: 30px; }
+
+hr.content-split { margin-left: 20px; margin-right: 20px; margin-top: 30px; background-color: lightblue; border: 0; height: 1px; }

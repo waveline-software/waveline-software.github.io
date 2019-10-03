@@ -1,3 +1,7 @@
+/*  [ REQUIREMENTS ]
+ *  - img/common/errorbg.png
+ */
+
 html {
     background-color: #F8F8F8;
     background: url(../../img/common/errorbg.png) no-repeat center center fixed;

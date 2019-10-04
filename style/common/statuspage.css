@@ -1,38 +1,25 @@
 /*  [ REQUIREMENTS ]
+ *  - style/fonts/opensans-all.css
  *  - img/common/errorbg.png
  */
 
 html {
-    background-color: #F8F8F8;
-    background: url(../../img/common/errorbg.png) no-repeat center center fixed;
-    background-size: cover;
 }
 
 body {
-    font-family: sans-serif;
+    font-family: "Open Sans Regular"; margin: 0; padding: 0;
+    background-color: #F8F8F8; background: url(../../img/common/errorbg.png) no-repeat center center fixed; background-size: cover;
 }
 
-body, .title, .subtitle {
-    margin: 0; padding: 0;
-}
-
-div.title {
+div.titlebar {
     padding: 20px;
-    background: #EEE;
-    border-bottom: solid 1px #DDD;
+    background: #EEE; border-bottom: solid 1px #DDD;
     box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
 }
 
-div.title.red {
-    background: lightcoral;
-    border-color: coral;
-}
+div.titlebar.red { background: coral; border-color: lightcoral; }
+div.titlebar.blue { background: powderblue; border-color: skyblue; }
 
-div.title.blue {
-    background: powderblue;
-    border-color: skyblue;
-}
-
-h1.title {
-    font-weight: 350;
-}
+div.titlebar > h1.title, div.titlebar > h2.subtitle { margin: 0; font-family: "Open Sans Light"; font-weight: normal; }
+div.titlebar > h1.title { font-size: 35px; }
+div.titlebar > h2.subtitle { font-size: 20px; margin-left: 1.5px; }

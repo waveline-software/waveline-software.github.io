@@ -40,10 +40,12 @@ div.content { padding: 25px 30px 0 30px; } div.content.last { padding-bottom: 25
 
 div.content > h1.head, h2.subhead { margin: 0; font-weight: normal; }
 div.content > h1.head { font-family: "Open Sans Semibold"; font-size: 30px; margin-bottom: 10px; }
+div.content > h1.head > small.links { font-family: "Open Sans Regular"; font-size: 15px; margin-left: 3px; vertical-align: middle; }
 div.content > h2.subhead { font-family: "Open Sans Regular"; margin-top: -10px; font-size: 20px; margin-bottom: 20px; }
 
 div.content > p { margin: 0; margin-top: 12.5px; line-height: 1.6; }
 div.content > p.lead { font-family: "Open Sans Light"; font-size: 20px; margin-top: 30px; }
+div.content > p.lead.only { margin-top: -5px; }
 
 hr.content-split { margin: 30px 20px 0 20px; background-color: lightblue; border: 0; height: 1px; }
 @media (min-width: 800px) { hr.content-split { margin: 35px 85px 0 85px; } }

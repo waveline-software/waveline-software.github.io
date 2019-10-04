@@ -23,7 +23,7 @@ nav.topnav > span.logo > img { margin-bottom: -6px; }
 
 nav.topnav > span.link { padding: 10px 7px; vertical-align: middle; }
 nav.topnav > span.link > a, nav.topnav > span.link > a:visited { color: darkcyan; text-decoration: none; }
-nav.topnav > span.link > a, nav.topnav > span.link > a:hover { color: black; text-decoration: none; }
+nav.topnav > span.link > a:hover { color: black; text-decoration: none; }
 nav.topnav > span.link.active > a, nav.topnav > span.link.active > a:visited { color: black; text-decoration: none; }
 
 div.banner {

@@ -7,7 +7,7 @@ body {
     margin: 0; padding: 0;
 }
 
-img.inline-avatar { height: 1rem; border-radius: 0.25em; margin-left: 2px; margin-bottom: -2px; }
+img.inline-icon { height: 1rem; border-radius: 0.125em; margin-left: 2px; margin-bottom: -2px; }
 
 a, a:visited { color: royalblue; text-decoration: none; }
 a:hover { color: blue; }
